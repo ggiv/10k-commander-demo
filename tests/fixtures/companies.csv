@@ -1,0 +1,4 @@
+cik,ticker,name,business_model,included,rationale
+9000000001,EXA,Example Applications,subscription,true,Synthetic engineering fixture; not a public company
+9000000002,EXB,Example Enterprise,subscription,true,Synthetic engineering fixture with missing and conflicting disclosures
+9000000003,EXC,Example Consumption,consumption,true,Synthetic engineering fixture with fiscal and share-basis changes

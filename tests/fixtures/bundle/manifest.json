@@ -1,0 +1,66 @@
+{
+  "format_version": 1,
+  "snapshots": [
+    {
+      "cik": "9000000001",
+      "content_hash": "68738544a0a109ccedd00b6f2824dae1788597fe2770c95abd03526adafe2ad7",
+      "kind": "submissions",
+      "retrieved_at": "2026-11-04T00:00:00+00:00",
+      "run_id": "synthetic-fixture-v1",
+      "snapshot_id": "48cbbf5db08688b7ed69089bd907b35cd95df478c1702bc9517b7cf81b696b47",
+      "storage_ref": "objects/68/68738544a0a109ccedd00b6f2824dae1788597fe2770c95abd03526adafe2ad7.json.gz",
+      "url": "https://example.invalid/sec/9000000001/submissions.json"
+    },
+    {
+      "cik": "9000000001",
+      "content_hash": "729f7795fc90fbd6dd2996aa6b48f18594d0ce0e5ea79061f29bd4e5a9dfe6e3",
+      "kind": "companyfacts",
+      "retrieved_at": "2026-11-04T00:00:00+00:00",
+      "run_id": "synthetic-fixture-v1",
+      "snapshot_id": "aac5ff463b34af954ebc11bcb406ddf331bb30dbaf6f41dc8e50553f471cf47b",
+      "storage_ref": "objects/72/729f7795fc90fbd6dd2996aa6b48f18594d0ce0e5ea79061f29bd4e5a9dfe6e3.json.gz",
+      "url": "https://example.invalid/sec/9000000001/companyfacts.json"
+    },
+    {
+      "cik": "9000000002",
+      "content_hash": "2bc0f36b81a0642763f832f3920621fbbd59a1e1ccb3c201a1b5c273edc93e0f",
+      "kind": "submissions",
+      "retrieved_at": "2026-11-04T00:00:00+00:00",
+      "run_id": "synthetic-fixture-v1",
+      "snapshot_id": "e56055eac1761deb02541d85540c08014e6dbadbb1b30116d2e5b71a9bb8184d",
+      "storage_ref": "objects/2b/2bc0f36b81a0642763f832f3920621fbbd59a1e1ccb3c201a1b5c273edc93e0f.json.gz",
+      "url": "https://example.invalid/sec/9000000002/submissions.json"
+    },
+    {
+      "cik": "9000000002",
+      "content_hash": "3aae59db04597a1c38e2bd7a2e57ac3bdba7b5b94fe56e7ff8ef11d36ac27a68",
+      "kind": "companyfacts",
+      "retrieved_at": "2026-11-04T00:00:00+00:00",
+      "run_id": "synthetic-fixture-v1",
+      "snapshot_id": "b8dbe1fae37efc2f3a053b320d4aad619089a21dcac634b9160b23d1aa615f62",
+      "storage_ref": "objects/3a/3aae59db04597a1c38e2bd7a2e57ac3bdba7b5b94fe56e7ff8ef11d36ac27a68.json.gz",
+      "url": "https://example.invalid/sec/9000000002/companyfacts.json"
+    },
+    {
+      "cik": "9000000003",
+      "content_hash": "8a207afb09279bee614339d96a44baa227b1c232406564f795d024d96d7325bd",
+      "kind": "submissions",
+      "retrieved_at": "2026-11-04T00:00:00+00:00",
+      "run_id": "synthetic-fixture-v1",
+      "snapshot_id": "f4658c43a93b8e841d12fba304e28a876951e7c542705d5756c46a93bee8d280",
+      "storage_ref": "objects/8a/8a207afb09279bee614339d96a44baa227b1c232406564f795d024d96d7325bd.json.gz",
+      "url": "https://example.invalid/sec/9000000003/submissions.json"
+    },
+    {
+      "cik": "9000000003",
+      "content_hash": "1c1e939a1b1f094464b3432f28ec061eaeea9e71be81f9b5ce9deedddd78396e",
+      "kind": "companyfacts",
+      "retrieved_at": "2026-11-04T00:00:00+00:00",
+      "run_id": "synthetic-fixture-v1",
+      "snapshot_id": "7159dddb3471b73ec321540195e4bbedde5aac507904606ded5ad2839f825f16",
+      "storage_ref": "objects/1c/1c1e939a1b1f094464b3432f28ec061eaeea9e71be81f9b5ce9deedddd78396e.json.gz",
+      "url": "https://example.invalid/sec/9000000003/companyfacts.json"
+    }
+  ],
+  "synthetic": true
+}

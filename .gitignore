@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+
+data/
+*.duckdb
+*.duckdb.wal
+*.tar.gz
+!tests/fixtures/**/*.json.gz
+
+# Local tooling and build output
+.DS_Store
+.codex/
+.agents/
+.claude/
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,19 @@
+{
+  "description": "Manually calculated synthetic example, all money in USD, shares in counts",
+  "cik": "9000000001",
+  "period_end": "2025-12-31",
+  "inputs": {
+    "revenue": "200000000", "prior_revenue": "160000000",
+    "operating_income": "60000000", "prior_operating_income": "40000000",
+    "operating_cash_flow": "70000000", "capex": "10000000",
+    "stock_compensation": "20000000", "basic_shares": "110000000", "prior_basic_shares": "108000000"
+  },
+  "metrics": {
+    "revenue_growth": 25,
+    "operating_margin": 30,
+    "free_cash_flow_margin": 30,
+    "stock_compensation_intensity": 10,
+    "basic_share_growth": 1.85185185185185,
+    "operating_margin_change": 5
+  }
+}

@@ -1,0 +1,28 @@
+version: synthetic-fixture-v1
+reviewed: true
+mappings:
+  - {canonical: revenue, taxonomy: us-gaap, concept: Revenues, unit: USD, priority: 1}
+  - {canonical: operating_income, taxonomy: us-gaap, concept: OperatingIncomeLoss, unit: USD, priority: 1}
+  - {canonical: operating_cash_flow, taxonomy: us-gaap, concept: NetCashProvidedByUsedInOperatingActivities, unit: USD, priority: 1}
+  - {canonical: capex, taxonomy: us-gaap, concept: PaymentsToAcquirePropertyPlantAndEquipment, unit: USD, priority: 1}
+  - {canonical: stock_compensation, taxonomy: us-gaap, concept: ShareBasedCompensation, unit: USD, priority: 1}
+  - {canonical: basic_shares, taxonomy: us-gaap, concept: WeightedAverageNumberOfSharesOutstandingBasic, unit: shares, priority: 1}
+annotations:
+  - cik: '9000000002'
+    period_start: '2022-01-01'
+    period_end: '2022-12-31'
+    flag: acquisition
+    explanation: Synthetic acquisition year; reported growth must not be called organic.
+    source_url: https://example.invalid/fixture/acquisition
+  - cik: '9000000003'
+    period_start: '2025-02-03'
+    period_end: '2026-01-31'
+    flag: share_basis_change
+    explanation: Synthetic unreconciled split; prevent share-growth comparisons.
+    source_url: https://example.invalid/fixture/split
+  - cik: '9000000003'
+    period_start: '2025-02-03'
+    period_end: '2026-01-31'
+    flag: investment_scope
+    explanation: Synthetic capitalized software is outside the PP&E measure; comparison needs review.
+    source_url: https://example.invalid/fixture/investment

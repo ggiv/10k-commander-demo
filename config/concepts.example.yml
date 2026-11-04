@@ -1,0 +1,11 @@
+version: example
+reviewed: false
+# Lower priority wins before filing precedence. No sign normalization is inferred.
+mappings:
+  - {canonical: revenue, taxonomy: us-gaap, concept: RevenueFromContractWithCustomerExcludingAssessedTax, unit: USD, priority: 1}
+  - {canonical: revenue, taxonomy: us-gaap, concept: Revenues, unit: USD, priority: 2}
+  - {canonical: operating_income, taxonomy: us-gaap, concept: OperatingIncomeLoss, unit: USD, priority: 1}
+  - {canonical: operating_cash_flow, taxonomy: us-gaap, concept: NetCashProvidedByUsedInOperatingActivities, unit: USD, priority: 1}
+  - {canonical: capex, taxonomy: us-gaap, concept: PaymentsToAcquirePropertyPlantAndEquipment, unit: USD, priority: 1}
+  - {canonical: stock_compensation, taxonomy: us-gaap, concept: ShareBasedCompensation, unit: USD, priority: 1}
+  - {canonical: basic_shares, taxonomy: us-gaap, concept: WeightedAverageNumberOfSharesOutstandingBasic, unit: shares, priority: 1}
